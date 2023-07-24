@@ -15,12 +15,7 @@ const WhereToFindMe = () => {
   ];
 
   const imagePaths = [
-    '/images/place1.jpeg',
-    '/images/place4.jpeg',
-    '/images/place5.jpeg',
-    '/images/place6.jpeg',
     '/images/place7.jpeg',
-    '/images/fotka7.jpg',
     '/images/new/priestor1.jpg',
     '/images/new/priestor2.jpg',
     '/images/new/priestor3.jpg',
