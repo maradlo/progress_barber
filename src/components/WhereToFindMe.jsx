@@ -21,6 +21,9 @@ const WhereToFindMe = () => {
     '/images/place6.jpeg',
     '/images/place7.jpeg',
     '/images/fotka7.jpg',
+    '/images/new/priestor1.jpg',
+    '/images/new/priestor2.jpg',
+    '/images/new/priestor3.jpg',
     ];
 
   return (
@@ -33,7 +36,7 @@ const WhereToFindMe = () => {
               <img
                 src={location.image}
                 alt={location.name}
-                className="w-full h-48 object-cover object-center"
+                className="w-full h-80 object-cover object-center"
               />
               <div className="p-4">
                 <p className="text-gray-600">{location.address}</p>
@@ -46,7 +49,7 @@ const WhereToFindMe = () => {
           <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true} interval={3000}>
             {imagePaths.map((imagePath, index) => (
               <div key={index}>
-                <img src={imagePath} alt={`Priestor ${index + 1}`} />
+                <img className='custom-carousel-image' src={imagePath} alt={`Priestor ${index + 1}`} />
               </div>
             ))}
           </Carousel>

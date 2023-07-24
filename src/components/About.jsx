@@ -1,12 +1,12 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
-import Profile_picture from '../assets/Profile_picture.jpeg';
+import Profile_picture from '../assets/titulna.jpg';
 
 const About = () => {
   return (
-    <section id="about" className="py-16 bg-gray-100 w-screen h-screen">
+    <section id="about" className="py-16 bg-gray-100 w-screen">
       <div className="container mx-auto flex items-center justify-center flex-col">
-        <img src={Profile_picture} alt="My Photo" className="rounded-full w-32 h-32 mb-4" />
+        <img src={Profile_picture} alt="My Photo" className="rounded-full w-64 h-64 mb-4" />
         <h2 className="text-3xl font-bold text-orange-500">O mne</h2>
         <p className="max-w-md text-center text-md mt-4">
         Čauko, <br />

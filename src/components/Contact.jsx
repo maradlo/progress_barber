@@ -30,7 +30,6 @@ const ContactMeSection = () => {
               Petra Pazmáňa 11, 927 01, Šaľa
             </a>
           </li>
-          <li className="text-2xl mt-12 mb-4">Od pondelka do piatku, 15:00 - 21:00</li>
         </ul>
       </div>
     </section>
