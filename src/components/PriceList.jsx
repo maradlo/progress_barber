@@ -15,7 +15,7 @@ const PriceList = () => {
       price: '8 €'
     },
     {
-      name: 'TAMAGOČI - strih do 15 rokov pre vaše ratolesti',
+      name: 'TAMAGOČI - strih do 10 rokov pre vaše ratolesti',
       price: '9 €'
     },
     {
