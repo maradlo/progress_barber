@@ -32,12 +32,13 @@ const Home = () => {
             <div className="text-red-500 text-xl drop-shadow-[2px_2px_var(--tw-shadow-color)] shadow-black">MBarber</div>
           </div>
         </div>
-        <div className="flex space-x-16 justify-center mt-12">
-          <span className='font-extrabold text-orange-500 text-8xl'>Sťahujeme sa!</span>
+        <div className="flex space-x-16 justify-center md:mt-12 mt-6">
+          <span className='font-extrabold text-orange-500 text-2xl md:text-8xl'>Sťahujeme sa!</span>
         </div>
-        <div className="grid justify-center mt-4">
-          <span className='font-normal text-2xl text-white'>Od 1.7.2024 na novej adrese</span>
-          <span className='font-normal mt-4 text-2xl text-white'>Nám. Sv. Juraja, č. 2244</span>
+        <div className="grid justify-center md:mt-4 mt-2">
+          <span className='font-normal text-lg md:text-2xl text-white'>Od 1.7.2024 na novej adrese</span>
+          <span className='font-normal mt-2 text-lg md:mt-4 md:text-2xl text-white'>Nám. Sv. Juraja, č. 2244</span>
+          <span className='font-normal mt-2 text-lg md:text-xl text-gray-300'>(Vedľa 365 banky)</span>
         </div>
       </div>
     </section>
