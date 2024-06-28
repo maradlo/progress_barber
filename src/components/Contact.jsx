@@ -27,7 +27,7 @@ const ContactMeSection = () => {
               rel="noopener noreferrer"
               className="text-black text-xl font-semibold hover:text-orange-500"
             >
-              Petra Pazmáňa 11, 927 01, Šaľa
+              Námestie Svätého Juraja 2244, 927 01 Šaľa
             </a>
           </li>
         </ul>
