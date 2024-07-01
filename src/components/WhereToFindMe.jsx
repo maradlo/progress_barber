@@ -15,11 +15,10 @@ const WhereToFindMe = () => {
   ];
 
   const imagePaths = [
-    '/images/place7.jpeg',
-    '/images/new/priestor1.jpg',
-    '/images/new/priestor2.jpg',
-    '/images/new/priestor3.jpg',
-    ];
+    '/images/newplace1.JPG',
+    '/images/newplace2.JPG',
+    '/images/newplace3.JPG',
+  ];
 
   return (
     <section id='wheretofindme' className="py-8 bg-gray-200 w-screen">
@@ -39,7 +38,7 @@ const WhereToFindMe = () => {
             </div>
           ))}
         </div>
-        {/* <h2 className="text-xl font-semibold text-center mt-12 mb-4">Fotky priestorov</h2>
+        <h2 className="text-xl font-semibold text-center mt-12 mb-4">Fotky priestorov</h2>
         <div className="mx-auto max-w-md">
           <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true} interval={3000}>
             {imagePaths.map((imagePath, index) => (
@@ -48,7 +47,7 @@ const WhereToFindMe = () => {
               </div>
             ))}
           </Carousel>
-        </div> */}
+        </div>
       </div>
     </section>
   );
